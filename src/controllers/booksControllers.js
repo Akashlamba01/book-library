@@ -55,10 +55,11 @@ const updateBook = async (req, res) => {
     if (!books) return resp.notFound(res);
 
     if (req.body.title) {
-      await Books.findOne({
+      let isBook = await Books.findOne({
         title: req.body.title,
       });
-      return resp.taken(res);
+
+      if (isBook) return resp.taken(res);
     }
 
     if (req.body.year) {
