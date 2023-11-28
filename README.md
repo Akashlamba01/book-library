@@ -18,7 +18,7 @@ To set up the project on your local system, follow the instructions below.
 1. Clone the repository using the following command:
    git clone https://github.com/Akashlamba01/book-library.git
 
-2. import the Postman Collection for make you easy to impplimant: https://api.postman.com/collections20374893-3ac7c7a0-5655-4e8d-ab41-28fd288afaac?access_key=PMAT-01H9GSC8NQ8Q7RVE167816YECS
+2. import the Postman Collection for make you easy to impplimant.
 
 3. Install the required dependencies: npm install
 
